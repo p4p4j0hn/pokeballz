@@ -1,0 +1,8 @@
+.name:first-letter {
+    text-transform: uppercase;
+}
+
+.cardImage {
+    width: 200px;
+    height: 200px;
+}
