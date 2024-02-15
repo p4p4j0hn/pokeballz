@@ -4,8 +4,9 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(127, 163, 241, 0.87);
+  background-color: rgb(31, 32, 35);
+  background: linear-gradient(to right, rgb(31, 32, 35), rgb(24, 67, 157));
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,11 +14,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.modal {
+  background-color: rgb(31, 32, 35);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    /* background-color: #ffffff; */
+    color: rgb(24, 67, 157);
+    background-color: rgb(113, 252, 206);
     background: linear-gradient(to right, rgb(113, 252, 206), rgb(29, 161, 242));
+  }
+  .modal {
+    background-color: rgb(113, 252, 206);
   }
   a:hover {
     color: #747bff;

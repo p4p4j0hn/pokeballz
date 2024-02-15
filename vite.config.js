@@ -11,6 +11,7 @@ export default defineConfig({
   server: {
     open: true,
   },
+  base: '/pokeballz/',
   plugins: [react()],
   build: {
     outDir,

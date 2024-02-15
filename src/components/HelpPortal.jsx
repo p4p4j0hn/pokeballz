@@ -6,7 +6,7 @@ export default function HelpPortal() {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <button className="pa2 f6 grow no-underline br-pill ba bw1 ph3 pv2 mb2 dib blue"
+      <button className="pa2 f6 grow no-underline br-pill ba bw1 ph3 pv2 mb2 dib"
               onClick={() => setShowModal(true)}>
         Help
       </button>
